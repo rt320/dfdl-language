@@ -1,0 +1,25 @@
+{
+    "name": "dfdl-xsd",
+    "displayName": "dfdl-xsd",
+    "description": "suntax highlighting for dfdl-xsd",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dfdl",
+            "aliases": ["dfdl", "dfdl"],
+            "extensions": ["dfdl.xsd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dfdl",
+            "scopeName": "source.dfdl.xsd",
+            "path": "./syntaxes/dfdl.tmLanguage.json"
+        }]
+    }
+}
